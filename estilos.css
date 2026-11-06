@@ -1,0 +1,70 @@
+img {
+  display: block;
+  margin: auto;
+}
+
+div{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	text-align:center;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	 font-family: tenhoufont;
+	 color: white;
+}
+
+h2{
+	 font-family: tenhoufont;
+	 color: white;
+}
+
+p{
+	 font-family: tenhoufont;
+	 color: white;
+}
+
+.destaque{
+	background-color: #333333;
+	margin: 20px 20px;
+	padding:20px;
+}
+
+.lista_de_ranks{
+	color: white;
+	list-style: none;
+	padding: 0;
+}
+
+.lista_de_ranks div{
+	border: 1px solid white;
+}
+
+.explicacao{
+	display: block;
+	max-width: 800px
+}
+
+@font-face {
+    font-family: tenhoufont;
+    src: url('lmroman8-regular.otf');
+}
+
+  /*1-A regra que achei mais díficil de compreender foi a de como funciona a display property e 
+	 de qual utilizar para o meu uso específico, no caso para aplicar às divs dentro do html.
+	 Para o resolver simplesmente voltei a rever as explicações do curso sobre css
+	 disponibilizado pelo professor e se precisasse ia pesquisar algo acerca disso
+	 se não estivesse a conseguir chegar lá sozinho(com a leitura do curso)
+	2-O erro que encontrei mais frequentemente foi o de aplicar incorretamente a sintaxe necessária
+	 dentro do próprio ficheiro css tal como o uso necessário de ponto e vírgula em todos os
+	 elementos dentro das chavetas ou então a de utilizar incorretamente o # em vez do . 
+	 quando queria aplicar algo a uma classe em vez de um id específico.
+	3-Os atributos href que utilizei no fim da página servem para definir o destino de um hyperlink,
+	indicando o endereço url que o utilizador ira ser direcionado ao clicar no texto vísivel que está contido dentro do elemento <a>.Neste
+	caso estes direcionam para os sites relevantes ao que falo dentro do meu próprio site
+	*/
